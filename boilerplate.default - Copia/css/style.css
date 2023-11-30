@@ -27,6 +27,12 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 10px;
+}
+
 /* UTILS */
 
 .container {
@@ -46,11 +52,15 @@ a {
 /* header */
 
 header {
-    height: 80px;
+    height: 100px;
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-nav ul li {
+    padding: 0 5px;
 }
