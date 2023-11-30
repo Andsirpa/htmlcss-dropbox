@@ -45,22 +45,65 @@ a {
 
 .debug {
     min-height: 80px;
-    background-color: lightslategray;
+    background-color: white;
     padding: 2rem;
 }
 
 /* header */
 
 header {
-    height: 100px;
+    height: 70px;
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .header-nav ul li {
     padding: 0 5px;
+}
+
+
+/* main */
+
+.jumbotron {
+    background-color: #b4d0e7;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.jumbotron-container {
+    width: 60%;
+}
+
+h1 {
+    font-size: 4rem;
+    /* text-align: center; */
+    padding: 2rem 0;
+
+}
+
+.col-container {
+    display: flex;
+
+
+}
+
+.col-small {
+    width: 30%;
+}
+
+.col-big {
+    width: 70%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.jumbotron.btn {
+    margin: 2rem 0;
 }
