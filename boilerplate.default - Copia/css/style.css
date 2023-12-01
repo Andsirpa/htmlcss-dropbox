@@ -46,6 +46,7 @@ a {
 .col-30 {
     width: 30%;
     border: 2px solid lightgrey;
+
 }
 
 .col-40 {
@@ -119,6 +120,9 @@ h1 {
 
 .col-container {
     display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+
 
 
 }
@@ -148,8 +152,8 @@ h1 {
 
 .sec-container {
 
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
     margin: 0 20%;
 
 
@@ -159,8 +163,12 @@ h1 {
     margin: 2rem 0;
 }
 
-.col-container .col-30 .header-title {
+.header-title {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid lightgray;
+}
+
+.top-card {
+    min-height: 250px;
 }
